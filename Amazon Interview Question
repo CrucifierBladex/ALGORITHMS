@@ -1,0 +1,13 @@
+##ROTATE THE PROVIDED ARRAY BY 90###
+
+
+
+x=[[1,2,3],
+   [4,5,6],
+   [7,8,9]]
+   
+##CODE
+import numpy as np  #importing the numerical python library
+np.rot90(x,k=3,axes=(0,1))   #the functon rot90 takes in the attributes x,k:no. of rotations,axes:0 for rows and 1 for coulmns
+
+
